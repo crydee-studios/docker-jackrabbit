@@ -18,9 +18,9 @@ Supported log levels:
 - FINEST or 
 - ALL
 
-Once started, the repository can be reached at localhost:8080/jackrabbit
+Once started, the repository can be reached at `http://localhost:8080/jackrabbit`
 
 To externalise the repository content, mount a volume at the location that you intend to set as your content repository home directory on the interface. For example:
 ```
-docker run --rm --name "jackrabbit" -v $(pwd)/documents:/usr/local/share/documents -p 8080:8080 -d crydeestudios/jackrabbit
+docker run --rm --name "jackrabbit" --mount source=documents,target=/usr/local/share/documents -p 8080:8080 -d crydeestudios/jackrabbit
 ```
