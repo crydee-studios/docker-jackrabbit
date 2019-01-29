@@ -4,7 +4,6 @@ JACKRABBIT_URL="https://archive.apache.org/dist/jackrabbit/$VERSION/jackrabbit-w
 JACKRABBIT_MD5="$MD5"
 JCR_URL="http://central.maven.org/maven2/javax/jcr/jcr/2.0/jcr-2.0.jar"
 JCR_MD5="ede5e78b16c8ed298ce0b6d296584ebd"
-echo Welcome to Jackrabbit Installer
 
 cd /tmp
 wget $JACKRABBIT_URL
