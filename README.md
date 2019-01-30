@@ -2,7 +2,7 @@
 
 This is the Docker image for [Jackrabbit](https://jackrabbit.apache.org/) on an official [Tomcat](http://tomcat.apache.org/) image.
 
-The version tag format is `<tomcat>-<jackrabbit>`. So Tomcat 7 with JackRabbit 2.6.3 is version `7-2.6.3`.
+The version tag format is `tomcat_version-jackrabbit_version`. So Tomcat 7 with JackRabbit 2.6.3 is version `7-2.6.3`.
 
 Optional environment variables:
 * **JACKRABBIT_LOG_LEVEL**: Not overridden if not supplied. 
